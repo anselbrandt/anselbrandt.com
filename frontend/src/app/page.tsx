@@ -71,7 +71,17 @@ export default function Home() {
               code
             </Link>
           </div>
-          <div>Podcast feed designed to maximize discoverability.</div>
+          <div>
+            Podcast feed designed to maximize discoverability powered by{" "}
+            <Link
+              className="underline hover:bg-sky-700 hover:text-neutral-50 transition"
+              href="https://huggingface.co/facebook/bart-large-mnli"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              bart-large-mnli
+            </Link>
+          </div>
           <div className="flex flex-row space-x-2">
             <Link
               className="text-sky-700 text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
@@ -91,7 +101,18 @@ export default function Home() {
               code
             </Link>
           </div>
-          <div>Real-time multiplayer game powered by a trained ML model.</div>
+          <div>
+            Real-time multiplayer game powered by custom trained{" "}
+            <Link
+              className="underline hover:bg-sky-700 hover:text-neutral-50 transition"
+              href="https://github.com/anselbrandt/side-stacker/blob/master/alphazero/AlphaZero_Training.ipynb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              pytorch model
+            </Link>
+            .
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
