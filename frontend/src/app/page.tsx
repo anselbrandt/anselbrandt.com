@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 items-center justify-center">
           <div className="flex flex-row space-x-2">
             <Link
-              className="text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
+              className="text-sky-700 text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
               href="https://mappingmtl.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -33,30 +33,28 @@ export default function Home() {
             </Link>
           </div>
           <div>
-            Interactive real estate visualization tool built using
+            Interactive real estate visualization tool built using{" "}
             <Link
-              className="hover:bg-sky-700 hover:text-neutral-50 transition"
+              className="underline hover:bg-sky-700 hover:text-neutral-50 transition"
               href="https://deck.gl/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
-              deck.gl{" "}
-            </Link>
-            and
+              deck.gl
+            </Link>{" "}
+            and{" "}
             <Link
-              className="hover:bg-sky-700 hover:text-neutral-50 transition"
+              className="underline hover:bg-sky-700 hover:text-neutral-50 transition"
               href="https://www.mapbox.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
               mapbox
             </Link>
           </div>
           <div className="flex flex-row space-x-2">
             <Link
-              className="text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
+              className="text-sky-700 text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
               href="https://okapirank.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +74,7 @@ export default function Home() {
           <div>Podcast feed designed to maximize discoverability.</div>
           <div className="flex flex-row space-x-2">
             <Link
-              className="text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
+              className="text-sky-700 text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
               href="/side-stacker"
               target="_blank"
               rel="noopener noreferrer"
