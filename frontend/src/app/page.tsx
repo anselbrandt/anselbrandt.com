@@ -9,7 +9,9 @@ export default function Home() {
         <TextFade direction="up">
           <h1 className="text-8xl font-bold font-serif">ansel brandt</h1>
         </TextFade>
-        <div className="text-xl font-semibold">Some things I've built:</div>
+        <div className="text-xl font-semibold">
+          Some things I&apos;ve built:
+        </div>
         {}
         <div className="flex flex-row space-x-2">
           <Link
