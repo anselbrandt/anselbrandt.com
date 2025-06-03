@@ -50,6 +50,8 @@ export const Difficulty: React.FC<Props> = ({
           <a
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             (MCTS)
           </a>
@@ -73,6 +75,8 @@ export const Difficulty: React.FC<Props> = ({
           <a
             className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
             href="https://en.wikipedia.org/wiki/AlphaZero"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             (AlphaZero)
           </a>
