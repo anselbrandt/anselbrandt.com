@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-row space-x-2">
             <Link
               className="text-sky-700 text-xl hover:bg-sky-700 hover:text-neutral-50 transition"
-              href="https://mappingmtl.vercel.app/"
+              href="https://mappingmtl.anselbrandt.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
